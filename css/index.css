@@ -1,0 +1,91 @@
+@import "./reset.css";
+
+body {
+  background-image: url(../img/mohnish-landge-sRn0M5Taqkk-unsplash.jpg);
+  /* background-color: transparent; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 15px 50px;
+}
+
+.header-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.18;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 460px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  box-shadow: 0px 5px 5px -5px rgba(242, 211, 251, 0.6);
+}
+.form__input {
+  flex-grow: 1;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1;
+}
+.form__button {
+  width: 125px;
+  height: 54px;
+  color: white;
+  background-color: palevioletred;
+  border-radius: 6px;
+}
+.form__button:hover,
+.form__button:focus {
+  background-color: pink;
+  border: 1px solid pink;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 0px 5px 5px -5px rgba(240, 190, 255, 0.6);
+  background-color: whitesmoke;
+  border-radius: 6px;
+}
+
+.card-city {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  margin: 0px 0px 20px 0px;
+}
+.card-temperature {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  margin: 0px 0px 20px 0px;
+}
+.card-weather {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.weather-image {
+  width: 64px;
+  height: 64px;
+}
