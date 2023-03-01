@@ -88,4 +88,5 @@ body {
 .weather-image {
   width: 64px;
   height: 64px;
+  margin-top: -18px;
 }
